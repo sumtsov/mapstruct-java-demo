@@ -1,10 +1,11 @@
 package com.dsumtsov.mapstruct.java.example.controller;
 
-import com.dsumtsov.mapstruct.java.example.domain.ShippingFee;
+import com.dsumtsov.mapstruct.java.example.model.ShippingFee;
 import com.dsumtsov.mapstruct.java.example.dto.ShippingFeeDTO;
 import com.dsumtsov.mapstruct.java.example.mapper.ShippingFeeMapper;
 import com.dsumtsov.mapstruct.java.example.service.ShippingFeeService;
 import com.dsumtsov.mapstruct.java.example.util.ControllerUtils;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
+@Tag(name = "api/v1/shipping-fee")
 @RequestMapping("api/v1/shipping-fee")
 public class ShippingFeeController {
 

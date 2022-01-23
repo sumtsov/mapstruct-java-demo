@@ -1,6 +1,6 @@
 package com.dsumtsov.mapstruct.java.example.mapper;
 
-import com.dsumtsov.mapstruct.java.example.domain.ShippingFee;
+import com.dsumtsov.mapstruct.java.example.model.ShippingFee;
 import com.dsumtsov.mapstruct.java.example.dto.ShippingFeeDTO;
 import com.dsumtsov.mapstruct.java.example.enums.ShippingFeeType;
 import com.dsumtsov.mapstruct.java.example.mapper.util.MappingUtils;

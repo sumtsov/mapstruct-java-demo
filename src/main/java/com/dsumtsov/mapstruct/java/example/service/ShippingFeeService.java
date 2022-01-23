@@ -1,6 +1,6 @@
 package com.dsumtsov.mapstruct.java.example.service;
 
-import com.dsumtsov.mapstruct.java.example.domain.ShippingFee;
+import com.dsumtsov.mapstruct.java.example.model.ShippingFee;
 import com.dsumtsov.mapstruct.java.example.enums.ShippingFeeType;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Sets;
@@ -19,7 +19,7 @@ public class ShippingFeeService {
         shippingFee.setSupportedDestinations(Sets.newHashSet("destination_1", "destination_2"));
         shippingFee.setType(ShippingFeeType.STANDARD);
         shippingFee.setDiscount(10);
-        shippingFee.setFeatures("[{feature_1:'1', feature_2:'2'}]");
+        shippingFee.setFeatures("{'feature_1':'1', 'feature_2':'2'}");
 
         return shippingFee;
     }
