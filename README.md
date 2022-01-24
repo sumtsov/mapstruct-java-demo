@@ -6,5 +6,5 @@ It's a sample project that demonstrates how to use Mapstruct to simplify mapping
 2. Run the .jar: `java -jar mapstruct-java-example-${version}.jar`
 
 ## API Reference
-- swagger-ui: ```http://localhost:8080/swagger-ui/index.html```
-- json:```http://localhost:8080/v3/api-docs```
+- swagger-ui: `http://localhost:8080/swagger-ui/index.html`
+- json:`http://localhost:8080/v3/api-docs`
