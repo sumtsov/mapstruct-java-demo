@@ -1,5 +1,5 @@
 # Mapstruct Java Example
-It's a sample project that demonstrates how to use Mapstruct to simplify mappings between Java bean types
+Sample project that demonstrates how to use Mapstruct to simplify mappings between Java bean types
 
 ## How to run
 1. Build the project: `mvn clean package`
