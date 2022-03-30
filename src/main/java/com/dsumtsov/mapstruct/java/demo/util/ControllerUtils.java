@@ -1,6 +1,6 @@
-package com.dsumtsov.mapstruct.java.example.util;
+package com.dsumtsov.mapstruct.java.demo.util;
 
-import com.dsumtsov.mapstruct.java.example.mapper.Mappable;
+import com.dsumtsov.mapstruct.java.demo.mapper.Mappable;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import lombok.NonNull;

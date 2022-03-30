@@ -1,10 +1,10 @@
-package com.dsumtsov.mapstruct.java.example.mapper;
+package com.dsumtsov.mapstruct.java.demo.mapper;
 
-import com.dsumtsov.mapstruct.java.example.model.ShippingFee;
-import com.dsumtsov.mapstruct.java.example.dto.ShippingFeeDTO;
-import com.dsumtsov.mapstruct.java.example.enums.ShippingFeeType;
-import com.dsumtsov.mapstruct.java.example.mapper.util.MappingUtils;
-import com.dsumtsov.mapstruct.java.example.mapper.util.MappingUtils.FeaturesStringToMap;
+import com.dsumtsov.mapstruct.java.demo.model.ShippingFee;
+import com.dsumtsov.mapstruct.java.demo.dto.ShippingFeeDTO;
+import com.dsumtsov.mapstruct.java.demo.enums.ShippingFeeType;
+import com.dsumtsov.mapstruct.java.demo.mapper.util.MappingUtils;
+import com.dsumtsov.mapstruct.java.demo.mapper.util.MappingUtils.FeaturesStringToMap;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;

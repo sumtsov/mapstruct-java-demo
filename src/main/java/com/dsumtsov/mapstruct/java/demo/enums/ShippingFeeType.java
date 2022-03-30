@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.java.example.enums;
+package com.dsumtsov.mapstruct.java.demo.enums;
 
 public enum ShippingFeeType {
     STANDARD(1),

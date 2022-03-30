@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.java.example.config;
+package com.dsumtsov.mapstruct.java.demo.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -14,6 +14,6 @@ public class OpenApiConfiguration {
         return new OpenAPI()
                 .components(new Components())
                 .info(new Info()
-                        .title("Mapstruct Java Example REST API"));
+                        .title("Mapstruct Java Demo REST API"));
     }
 }

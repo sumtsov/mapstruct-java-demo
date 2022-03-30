@@ -1,6 +1,6 @@
-package com.dsumtsov.mapstruct.java.example.model;
+package com.dsumtsov.mapstruct.java.demo.model;
 
-import com.dsumtsov.mapstruct.java.example.enums.ShippingFeeType;
+import com.dsumtsov.mapstruct.java.demo.enums.ShippingFeeType;
 import lombok.Data;
 
 import java.util.HashSet;

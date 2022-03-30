@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.java.example.dto;
+package com.dsumtsov.mapstruct.java.demo.dto;
 
 import lombok.Data;
 

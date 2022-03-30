@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.java.example.mapper.util;
+package com.dsumtsov.mapstruct.java.demo.mapper.util;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

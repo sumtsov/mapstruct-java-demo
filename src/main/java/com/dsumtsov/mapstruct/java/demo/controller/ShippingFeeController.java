@@ -1,10 +1,10 @@
-package com.dsumtsov.mapstruct.java.example.controller;
+package com.dsumtsov.mapstruct.java.demo.controller;
 
-import com.dsumtsov.mapstruct.java.example.model.ShippingFee;
-import com.dsumtsov.mapstruct.java.example.dto.ShippingFeeDTO;
-import com.dsumtsov.mapstruct.java.example.mapper.ShippingFeeMapper;
-import com.dsumtsov.mapstruct.java.example.service.ShippingFeeService;
-import com.dsumtsov.mapstruct.java.example.util.ControllerUtils;
+import com.dsumtsov.mapstruct.java.demo.mapper.ShippingFeeMapper;
+import com.dsumtsov.mapstruct.java.demo.model.ShippingFee;
+import com.dsumtsov.mapstruct.java.demo.service.ShippingFeeService;
+import com.dsumtsov.mapstruct.java.demo.util.ControllerUtils;
+import com.dsumtsov.mapstruct.java.demo.dto.ShippingFeeDTO;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
