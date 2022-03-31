@@ -1,6 +1,6 @@
 package com.dsumtsov.mapstruct.java.demo.service;
 
-import com.dsumtsov.mapstruct.java.demo.model.ShippingFee;
+import com.dsumtsov.mapstruct.java.demo.domain.ShippingFee;
 import com.dsumtsov.mapstruct.java.demo.enums.ShippingFeeType;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Sets;

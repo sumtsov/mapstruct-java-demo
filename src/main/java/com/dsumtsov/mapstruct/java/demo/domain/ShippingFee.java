@@ -1,4 +1,4 @@
-package com.dsumtsov.mapstruct.java.demo.model;
+package com.dsumtsov.mapstruct.java.demo.domain;
 
 import com.dsumtsov.mapstruct.java.demo.enums.ShippingFeeType;
 import lombok.Data;
