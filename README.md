@@ -1,5 +1,5 @@
 # Mapstruct Java Demo
-Demo project that demonstrates how to use Mapstruct to simplify mappings between Java beans
+Sample project that demonstrates how to use Mapstruct to simplify mappings between Java beans
 
 ## How to run
 1. Build the project: `mvn clean package`
